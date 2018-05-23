@@ -1,2 +1,1 @@
-"# testesMobile" 
-Cenários: Login com Sucesso e Login com Erro
+#Cenários: Login com Sucesso e Login com Erro
