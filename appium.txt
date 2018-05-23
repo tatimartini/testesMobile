@@ -1,0 +1,5 @@
+[caps]
+platformName = 'Android'
+deviceName = 'Nexus 5X'
+app = '/Users/tatianamartini/Desktop/Tati/_estudos/TesteBrq/_testes/app-testebrq.apk'
+appPackage = 'com.example.tatianamartini.testebrq'
