@@ -4,7 +4,16 @@ class BaseScreen
     end
 
     def tocar_no_botao(id)
-        iniciar = $driver.find_element(:id, id)
-        iniciar.click
+        botao = $driver.find_element(:id, id)
+        botao.click
+    end
+
+    def buscar_elemento(id)
+        $driver.find_element(:id, id)
+    end
+
+    def buscar_preencher(id, text)
+        item = $driver.find_element(:id, id)
+        item.send_keys(text)
     end
 end

@@ -21,7 +21,3 @@ Cenário: Efetuar login com erro
         | senha | 1234          |
     E preencho os campos
     Então devo ver a mensagem: "Usuário incorreto, tente novamente!"
-
-
-
-    
